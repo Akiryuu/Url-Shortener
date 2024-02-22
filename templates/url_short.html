@@ -10,12 +10,12 @@
       <td>url:</td>
       <td><input type="text" name="url_long"></td>
     </tr>
-      <td>short url:</td>
+      <td>Zkrácené url:</td>
       {% if url_short%}
-      <td>http://127.0.0.1:54321/{{url_short}}</td>
+      <td>http://127.0.0.1:5000/{{url_short}}</td>
       {% endif %}
     <tr>
-      <td><button>Shorten</button></td>
+      <td><button>Zkrať</button></td>
     </tr>
 
   </table>
@@ -23,7 +23,7 @@
 {% for long_url, short_url in response %}
 <div class="urls">
 <p class="url">url: {{long_url}}</p>
-<p class="url">short url: http://127.0.0.1:54321/{{short_url}}</p>
+<p class="url">shortened url: http://127.0.0.1:5000/{{short_url}}</p>
 </div>
 {% endfor %}
 
