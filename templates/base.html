@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+
+  <title>{%block title%}Home{%endblock%}</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favico.png') }}" />
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+<p>
+{% if 'user' in session %}
+Uživatel: {{ session['user'] }}. 
+<a href="{{ url_for('logout') }}">Logout</a>
+{% else %}
+Nikdo není přihlášen.
+{% endif %}
+</p>
+<nav>
+  <p class="link"><a href="{{ url_for('base') }}">Home</a><a href="{{ url_for('login') }}">Login</a><a href="{{ url_for('register') }}">Register</a><a href="{{ url_for('url_short') }}">url shortener</a></p>
+</nav>
+
+{% block obsah %}
+
+
+<h1>Url Shortener</h1>
+
+
+
+
+{% endblock obsah %}
+
+</body>
+</html>

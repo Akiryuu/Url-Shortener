@@ -1,0 +1,102 @@
+body {
+  background-color: #eeeeee;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 90px;
+  margin-right: 90px; }
+
+h1, h2, h3 {
+  clear: both;
+  margin-top: 3em;
+}
+
+h1 a {
+  color: #bb8800; 
+}
+
+nav ul {
+  margin: 1ex auto;
+  margin-left: 150px;
+  /* text-align: center; */
+  font-weight: bold; }
+  nav ul li {
+    display: block;
+    width: 30%;
+    margin-top: 1ex;
+    }
+    nav ul li a {
+      display: block;
+      color: white;
+      background-color: #324b79;
+      border-radius: 25px 50px 0px;
+      padding: 1ex 2ex; }
+    nav ul li a:hover {
+      color: #324b72;
+      background-color: white;
+    }
+  nav img {
+    float:left;
+  }
+
+footer {
+  padding: 0.1ex 2em;
+  margin-top: 2em;
+  border-top: solid 2px #FACC15;
+  background-color: #ecc8f0; }
+
+.login {
+  display: inline-block;
+  float: right;
+  width: 30%;
+  border: orange solid 2px;
+  padding: 1ex; }
+  
+.odd {
+    background-color: orange;
+}
+
+.even {
+    background-color: lightblue;
+}
+
+.link{
+  text-align: center;
+}
+
+.link a{
+  background-color: #324b72;
+  border-radius: 25px 50px 0px;
+  padding: 1ex 2ex;
+}
+
+h1{
+  text-align: center;
+}
+
+.url {
+  background-color: #324b72;
+  border-radius: 25px 25px;
+  padding:2ex;
+  margin: 1ex; 
+}
+
+.urls{
+  background-color: #FACC15;
+  border-radius: 10px;
+  margin: 3ex;
+}
+
+.a{
+  text-align: center;
+}
+
+.a a{
+  background-color: #0062ff;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 1ex;
+  text-align: center;
+  text-decoration: none;
+  font-size: 200%;
+}
+/*# sourceMappingURL=styles.css.map */
