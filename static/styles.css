@@ -72,19 +72,21 @@ footer {
 
 h1{
   text-align: center;
+  font-size: 300%;
 }
 
 .url {
-  background-color: #000000;
-  border-radius: 25px 25px;
+  background-color: #e09f12;
+  border-radius: 15px 15px;
   padding:2ex;
-  margin: 1ex; 
+  margin: 1ex;
 }
 
 .urls{
-  background-color: #FACC15;
+  background-color: #880f5a;
   border-radius: 10px;
   margin: 3ex;
+  padding: 1ex;
 }
 
 .a{
